@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+h2 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}
+header {
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    flex: 3;
+}
+nav img {
+    width: 15%;
+}
+.navbar {
+flex: 1;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+.features {
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.features-text {
+    flex: 1;
+}
+.features-text h2 {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+.features-text p {
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+}
+.features-text input {
+    outline: none;
+    padding: 1rem 5rem;
+}
+.features-image {
+    flex: 1;
+}
+.features-image img {
+    width: 100%;
+}
+.btn-1 {
+    padding: 1rem 4rem;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-1:hover {
+    background-color: #6b9bff;
+}
+.team {
+    background-color: #f8f8fe;
+    position: relative;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.team-text {
+    flex: 1;
+}
+.team-text h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.team-text a {
+    color: hsl(170, 45%, 43%);
+}
+.team-text a:hover {
+    color: #abd5d1;
+}
+.bg {
+    width: 100%;
+    min-height: 10vh;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -11%;
+}
+.team-img {
+    flex: 1;
+}
+.team-img img {
+    width: 100%;
+    padding-top: 9rem;
+}
+.team-quote {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    width: 58%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #f0eff4;  
+}
+.team-quote p {
+    font-size: 16px;
+    padding: 1rem 0rem;
+}
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-text h2 {
+    font-size: 0.5rem;
+    padding: 0rem 0.3rem;
+}
+.profile-text p {
+    font-size: 0.5rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.profile-img {
+    width: 10%;
+}
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.signin {
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    min-height: 40vh;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.signin-text {
+    flex: 2;
+    color: white;
+    margin-top: 40px;
+}
+.signin-text h2 {
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+.signin-text p {
+    font-size: 1.3rem;
+}
+.singin-input{
+    flex: 1;
+    margin-top: 40px;
+    
+}
+.singin-input input {
+    padding: 1rem 3rem;
+    outline: none;
+    width: 100%;
+    margin: 34px 0px 20px 0px;
+}
+footer {
+    background-color: hsl(243, 87%, 12%);
+    min-height: 50vh;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+}
+.final-logo {
+    margin-top: 23px;
+}
+
+.final ul {
+    list-style: none;
+}
+.final li {
+    padding: 2rem;
+}
+.final li img {
+    margin-right: 15px;
+}
+ .list2 {
+    list-style: none;
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+    top: 28%;
+    transform: translateY(19%);
+}
+.list li:hover, .list2 li:hover {
+    color: #6b9bff;
+}
+.list {
+    top: 33%;
+    list-style: none;
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+    transform: translateY(33%);
+}
+.list li {
+    padding: 1.4rem;
+}
+.list2 li {
+    padding-top: 2.2rem;
+    
+}
+.social-media {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.social-media li {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.media:hover {
+    fill: #6b9bff;
+}
+footer p {
+    margin-top: 15%;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .team-quote p {
+        font-size: 15px;
+    }
+    .signin-text {
+        margin-top: 84px;
+    }
+    .singin-input {
+        margin-top: 68px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .features {
+        min-height: 31vh;
+    }
+    .features-text h2 {
+        font-size: 1.8rem;
+    }
+    .features-text p {
+        font-size: 0.9rem;
+    }
+    .features-text input {
+        padding: 1rem 4rem;
+    }
+    .btn-1 {
+        padding: 1rem 3rem;
+    }
+    .team {
+        margin-top: 15%;
+
+    }
+    .bg {
+        top: -38%;
+    }
+    .team-text h2 {
+        font-size: 1.7rem;
+    }
+    .team-text p {
+        font-size: 14px;
+    }
+    .team-img img {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    .team-quote p {
+        font-size: 10px;
+    }
+    .profile-text h2 {
+        font-size: 9px;
+    }
+    .profile-text p {
+        font-size: 6px;
+    }
+    .container2 {
+        margin-top: 3px;
+        min-height: 30vh;
+    }
+    .final li {
+        padding: 1rem;
+        font-size: 19px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        flex: 2;
+    }
+    .features-text h2 {
+        font-size: 1.4rem;
+    }
+    .features-text p {
+        font-size: 0.6rem;
+    }
+    .features-text input {
+        padding: 1rem 2rem;
+    }
+    .btn-1 {
+        padding: 1rem 2rem;
+    }
+    .bg {
+        top: -37%;
+    }
+    .team-text h2 {
+        font-size: 1.3rem;
+    }
+    .team-text p {
+        font-size: 10px;
+    }
+    .team-quote p {
+        font-size: 6px;
+        padding: 0.2rem;
+    }
+    .profile-text h2 {
+        font-size: 6px;
+    }
+    .profile-text p {
+        font-size: 6px;
+        padding: 0.2rem;
+    }
+    .signin-text p {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .logo {
+        flex: 1;
+    }
+    .logo img {
+        width: 40%;
+    }
+    nav li {
+        font-size: 14px;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .features-text {
+        order: 2;
+        padding-top: 1rem;
+    }
+    .features-text h2 {
+        font-size: 29px;
+        text-align: center;
+    }
+    .features-text p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .features-image {
+        order: 1;
+    }
+    .features input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .btn-1 {
+        width: 100%;
+    }
+    .bg {
+        background-image: url(./images/bg-curve-mobile.svg);
+    }
+    .team {
+        margin-top: 42%;
+    }
+    .bg {
+        top: -10%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-text a {
+        margin-left: 19%;
+    }
+    .team-img {
+        order: 1;
+    }
+    .team-text {
+        order: 2;
+    }
+    .team-text h2 {
+        font-size: 1.3rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .team-quote {
+        width: 98%;
+    }
+    .team-quote p {
+        font-size: 12px;
+        padding-top: 13px;
+    }
+    .profile-text h2 {
+        font-size: 9px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .profile-text p {
+        font-size: 7px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signin-text {
+        text-align: center;
+    }
+    .signin-text p {
+        font-size: 12px;
+    }
+    .singin-input input{
+        width: 104%;
+        margin-top: 0px;
+    }
+    .singin-input button {
+        width: 105%;
+        margin-bottom: 40px;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .list {
+        top: -15%;
+        transform: translateY(0%);}
+
+.list2 {
+    top: -10;
+    transform: translateY(-20%);
+    left: 5%;}
+    .social-media {
+        margin-left: 33%;
+    }
+
+
+}
+@media only screen and (max-width: 376px) {
+    .features-text h2 {
+        font-size: 26px;
+    }
+    .features-text p {
+        font-size: 10px;
+    }
+    .bg {
+        top:-10%;
+    }
+    .team-text h2 {
+        font-size: 1.2rem;
+    }
+    .profile-text h2 {
+        font-size: 9px;
+    }
+    .signin-text h2 {
+        font-size: 1.8rem;
+        padding: 2rem 0rem;
+    }
+    .signin-text p {
+        font-size: 11px;
+    }
+    .social-media {
+        margin-left: 33%;
+    }
+
+}
